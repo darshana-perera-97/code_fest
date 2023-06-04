@@ -1,7 +1,7 @@
 .leftNavBar {
   background-color: #2e4a56;
   width: 16%;
-  height: 100vh
+  height: 120vh
 }
 
 p {
@@ -12,7 +12,7 @@ p {
   height: 45px;
   padding: 20px;
   margin-top: 5px;
-  height:2vw
+  height: 2vw
 }
 
 .logo {
@@ -120,4 +120,187 @@ p {
   text-align: center;
   margin-top: -3px;
   opacity: 0.7
+}
+
+.dashboard {
+  background: #ffffff;
+  margin: 20px 40px;
+  padding: 20px 30px;
+  border: 1px solid #2b383e54;
+  margin: 20px 40px;
+  border-radius: 20px;
+
+}
+
+.clapClipart {
+  height: 5vw;
+  padding: 0px 30px;
+  padding-right: 20px;
+}
+
+.dashboard h3 {
+  margin: 0px;
+  font-size: 35px;
+}
+
+.dataSheets {
+  padding: 30px 45px;
+  display: flex;
+}
+
+.singleData {
+  width: 33%;
+  margin-right: 70px;
+}
+
+.singleData .title {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+.lastCalls .content {
+  display: block;
+}
+
+.content {
+  margin: 20px 0px;
+  padding: 20px 30px;
+  border-radius: 15px;
+  display: flex;
+}
+
+.content h5 {
+  color: #ffffff;
+  margin: 0px;
+  font-size: 33px;
+}
+
+.content p {
+  margin: 0px;
+  font-size: 13px;
+  margin-top: -7px;
+  color: #00759c;
+}
+
+.content .icon {
+  background-color: #ffffff;
+  padding: 9px;
+  margin-top: 7px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.upcomingTasks {
+  width: 70%;
+  padding: 20px 50px;
+  padding-top: 0px;
+}
+
+.lastCalls {
+  width: 35%;
+  padding: 20px 20px;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+
+
+.upcomingTasks h4,
+.lastCalls h4 {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.upcomingTasks .content,
+.lastCalls .content {
+  background: #ffffff;
+  margin-right: 25px;
+  border: 1px solid #2b383e54;
+  border-radius: 12px;
+}
+
+.singleTask {
+  background: #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  border-radius: 10px;
+  width: 94%;
+}
+
+.singleTask .icon {
+  margin: 8px 0px;
+  margin-right: 10px;
+}
+
+.singleTask h5 {
+  font-size: 18px;
+  margin: 0px;
+  color: #2b383e;
+  padding: 5px 0px;
+  padding-top: 10px;
+}
+
+.singleTask h4 {
+  font-size: 18px;
+  margin: 0px;
+  text-transform: capitalize;
+  height: 28px;
+  padding: 10px 20px;
+  margin-top: 5px;
+  color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.upcomingTasks .content {
+  display: block;
+}
+
+.upcomingTasks hr {
+  margin: 20px 0px;
+  background: #d0d0d0;
+}
+
+.singleCall {
+  background: #f4f4f4;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.singleCall img {
+  height: 45px;
+  margin: 20px;
+  border: 3px solid #ffc082;
+  border-radius: 13px
+}
+
+.singleCall h3 {
+  font-size: 18px;
+  margin: 0px;
+  color: #2b383e;
+  padding: 5px 0px;
+  padding-top: 20px;
+}
+
+.singleCall p {
+  color: #ffc082;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.singleCall .icon {
+  color: #ffffff;
+  background: #ffc082;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 12px;
+  margin: 20px;
 }
