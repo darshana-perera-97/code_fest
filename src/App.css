@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+.leftNavBar {
+  background-color: #2e4a56;
+  width: 16%;
+  height: 100vh
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  margin: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#productLogo {
+  height: 45px;
+  padding: 20px;
+  margin-top: 5px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo {
+  border-bottom: 1px solid #ffffffaf;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.mainMenuText {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 30px 40px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.d-flex {
+  display: flex
+}
+
+
+.singleItem {
+  padding: 16px 35px;
+  cursor: pointer;
+}
+
+.singleItemActive {
+  padding: 16px 35px;
+  background-color: #2b383e;
+  border-right: 7px solid #0eccff;
+  cursor: pointer;
+}
+
+.menuName {
+  padding-left: 5px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.menuNameActive {
+  padding-left: 5px;
+  color: #0eccff;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.menuIcon {
+  color: #ffffff;
+}
+
+.menuIconActive {
+  color: #0eccff;
+}
+
+.d-event {
+  display: flex;
+  justify-content: space-between;
+}
+
+.downIcon {
+  color: #fff;
+  margin: 15px;
+}
+
+.page {
+  background: #f9f9f9;
+}
+
+.topBar {
+  background: #ffffff;
+  display: flex;
+  justify-content: right;
+  padding: 15px 30px;
 }
