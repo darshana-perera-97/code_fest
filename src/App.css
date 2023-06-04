@@ -12,7 +12,7 @@ p {
   height: 45px;
   padding: 20px;
   margin-top: 5px;
-
+  height:2vw
 }
 
 .logo {
@@ -80,11 +80,44 @@ p {
 
 .page {
   background: #f9f9f9;
+  width: 84%;
 }
 
 .topBar {
   background: #ffffff;
   display: flex;
   justify-content: right;
-  padding: 15px 30px;
+}
+
+.singleIcon {
+  height: 35px;
+  margin-left: 15px;
+  padding: 10px 0px;
+}
+
+.userProfile {
+  margin-left: 15px;
+  border-left: 3px solid rgba(0, 0, 0, 0.171);
+  padding: 0px 20px;
+  cursor: pointer;
+}
+
+.person {
+  height: 45px;
+  padding: 10px 0px;
+  padding-right: 10px;
+}
+
+.userProfile h5 {
+  margin: 0px;
+  margin-top: 15px;
+  font-size: 17px;
+}
+
+.userProfile p {
+  margin: 0px;
+  font-size: 13px;
+  text-align: center;
+  margin-top: -3px;
+  opacity: 0.7
 }
